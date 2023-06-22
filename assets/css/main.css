@@ -1,0 +1,308 @@
+/* 메인 비쥬얼 */
+.sc-visual .visual-swiper{
+    position: relative;
+    width: 100%;
+    min-height: 400px;
+    height: calc(100vh - 140px);
+    overflow: hidden;
+}
+.sc-visual .visual-swiper .swiper-wrapper{
+    display: flex;
+    height: 100%;
+}
+.sc-visual .visual-swiper .swiper-slide{
+    width: 100%;
+    height: 100%;
+}
+.sc-visual .swiper-slide a{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.sc-visual .swiper-slide .img-wrap{
+    height: 100%;
+}
+.sc-visual .visual-swiper img{
+    /* max-width: 100%; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.sc-visual .swiper-slide .txt-wrap{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    height: auto;
+    padding: 90px 40px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+}
+.sc-visual .swiper-slide .txt-wrap h3{
+    font-weight: bold;
+    color: #fff;
+    line-height: 1.25;
+    letter-spacing: -1.3px;
+    font-size: 30px;
+}
+.sc-visual .swiper-slide .txt-wrap .desc{
+    font-weight: 400;
+    padding-top: 15px;
+    font-size: 17px;
+    line-height: 1.4;
+    letter-spacing: -0.5px;
+    color: #fff;
+    margin: 0;
+}
+
+.sc-visual .visual-swiper .pagination{
+    display: flex;
+    position: absolute;
+    width: 170px;
+    height: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 40px;
+    z-index: 1;
+}
+.sc-visual .visual-swiper .swiper-pagination-bullet{
+    display: block;
+    margin: 0;
+    background: #fff;
+    border-radius: 0;
+    width: 40px;
+    height: 2px;
+    opacity: 0.3;
+}
+.sc-visual .visual-swiper .swiper-pagination-bullet-active{
+    opacity: 1;
+}
+/* // 메인비쥬얼 */
+
+/* 베스트아이템 */
+
+.sc-best{
+    margin-top: 50px;
+    text-align: center;
+}
+.sc-best .best-tab{
+    margin: 22px 0;
+    padding: 0 16px;
+    height: 40px;
+}
+.sc-best .best-tab ul{
+    display: flex;
+    align-items: center;
+}
+.sc-best .best-tab li{
+    margin-right: 10px;
+}
+.sc-best .best-tab li a{
+    padding: 9px 10px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #77797E;
+    line-height: normal;
+}
+.sc-best .best-tab li a.active{
+    font-weight: 700;
+    color: #FFFFFF;
+    background: #B75622;
+    border-radius: 60px;
+}
+
+.sc-best .tab-cont .cont{display: none;}
+.sc-best .tab-cont .cont.on{display: block;}
+
+/* // 베스트아이템 */
+/* 멤버쉽 가입혜택 배너 */
+.sc-banner{
+    margin-bottom: 20px;
+}
+/* //멤버쉽 가입혜택 배너 */
+
+/* 룩북 */
+.sc-lookbook .lookbook-area .txt-wrap{
+    padding: 20px 16px 20px;
+}
+.sc-lookbook .lookbook-area .txt-wrap h3{
+    font-size: 26px;
+    line-height: 35px;
+    letter-spacing: -0.05em;
+    font-weight: 700;
+}
+.sc-lookbook .lookbook-area .txt-wrap .desc{
+    padding: 14px 0 28px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.05em;
+    font-weight: 400;
+}
+.sc-lookbook .lookbook-area .category-link{
+    display: inline-block;
+    background-color: #1e1e1e;
+    border-radius: 2px;
+    color: #fff;
+    padding: 8px 47px 8px 18px;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.03em;
+    font-weight: 500;
+    background-image: url(../images/icon/Icon_move.png);
+    background-repeat: no-repeat;
+    background-size: 15px auto;
+    background-position: calc(100% - 18px) center;
+}
+.sc-lookbook .product-area {
+    padding: 0 16px;
+}
+/* //룩북 */
+/* 이달의 신상 */
+.sc-new{
+    margin-top: 50px;
+    
+}
+.sc-new .headline{
+    text-align: center;
+    margin-bottom: 22px;
+}
+.sc-new .new-list{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.sc-new .new-list .new-item{
+    width: calc((100% - 10px)/2);
+    padding-bottom: 50px;
+}
+.sc-new .new-list .new-item a{
+    display: block;
+}
+.sc-new .new-list .new-item .new{
+    left: 0;
+}
+/* //이달의 신상 */
+/* 브랜드스토리 */
+.sc-brand .banner-wrap{
+    padding: 56px 20px;
+    background-color: #C86733;
+}
+.sc-brand .banner-wrap a{
+    display: block;
+}
+.sc-brand .banner-wrap h3{
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: -0.5px;
+    margin: 0 auto 10px;
+    font-weight: 400;
+    display: inline-block;
+    border-bottom: 1.5px solid #fff;
+    padding-bottom: 5px;
+    line-height: 1.2;
+}
+.sc-brand .banner-wrap h4{
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: -0.03em;
+    color: #fff;
+    font-weight: 700;
+}
+.sc-brand .banner-wrap p{
+    padding: 10px 0 5px;
+    font-size: 12px;
+    line-height: 1.4;
+    color: #fff;
+    letter-spacing: -0.02em;
+    font-weight: 400;
+}
+.sc-brand .banner-wrap .btn-more{
+    display: block;
+    width: 100px;
+    margin-top: 20px;
+    padding: 10px 0;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: -0.03em;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    border: 1px solid #fff;
+}
+/* //브랜드스토리 */
+
+/* 카테고리 */
+.sc-category{
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.sc-category .group-category .cate-area{
+    position: relative;
+}
+.sc-category .headline{
+    padding: 30px 0;
+    font-size: 20px;
+    line-height: 24px;
+    color: #333;
+    font-weight: 600;
+}
+.sc-category .more{
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    width: 80px;
+    height: 24px;
+    font-size: 14px;
+    line-height: 1.5;
+    background: url(../images/icon/icon-move-gr.png) no-repeat 65px center;
+    background-size: 15px auto;
+}
+/* //카테고리 */
+
+/* 인포 */
+.sc-info{
+    margin-top: 70px;
+}
+.sc-info + .sc-info{
+    margin-top: 10px;
+}
+.sc-info .group-membership{
+    background: url(../images/banner/membershipbanner.jpg) no-repeat center;
+    background-size: cover;
+}
+.sc-info .group-offline{
+    background: url(../images/banner/storebanner.jpg) no-repeat center;
+    background-size: cover;
+}
+.sc-info .group-membership a,
+.sc-info .group-offline a{
+    display: block;
+    padding: 65px 20px;
+}
+.sc-info .group-membership em{
+    font-size: 26px;
+    line-height: 31px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: #fff;
+}
+.sc-info p{
+    font-size: 15px;
+    line-height: 1.4;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    color: #fff;
+    padding: 15px 0 30px;
+}
+.sc-info .btn-more{
+    display: block;
+    border: 1px solid #fff;
+    padding: 7px 25px 8px;
+    color: #fff;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.03em;
+}
+/* //인포 */

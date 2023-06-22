@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
+
+/* 
+ ttf - 트루타입[지원범위 예전브라우저] 
+ otf - 트루타입[지원범위 예전브라우저]
+ eot -  [익스플로러]
+ woff [웹오픈폰트포맷]
+ woff2[웹오픈폰트포맷] - woff 최대 20~50%가 압축된파일
+ */
+
+@font-face {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    src:url('../font/Gilroy-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    font-weight: 500;
+    src:url('../font/Gilroy-Medium.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    font-weight: 600;
+    src:url('../font/Gilroy-SemiBold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    font-weight: 700;
+    src:url('../font/Gilroy-Bold.woff2') format('woff2');
+}
