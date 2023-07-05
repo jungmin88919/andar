@@ -281,7 +281,8 @@
     display: block;
     padding: 65px 20px;
 }
-.sc-info .group-membership em{
+.sc-info .group-membership em,
+.sc-info .group-offline em{
     font-size: 26px;
     line-height: 31px;
     font-weight: 700;
